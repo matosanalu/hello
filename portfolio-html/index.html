@@ -1,35 +1,92 @@
 <!doctype html>
 <html lang="pt-BR">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Portfólio de Maria Silva</title>
-<meta name="description" content="Portfólio simples feito em HTML puro.">
-</head>
-<body>
-<header>
-<main>
-<section id="sobre">
-<h2>Sobre</h2>
-<figure>
-<img src="https://via.placeholder.com/240" alt="Retrato de Maria sorrindo
-de frente.">
-<figcaption>Foto ilustrativa do perfil</figcaption>
-</figure>
-<p>
-Olá! Sou a Maria e estou começando no desenvolvimento web.
-Gosto de aprender criando projetos simples e práticos.
-</p>
-</section>
-<h1>Portfólio de Maria Silva</h1>
-<p>Estudante de desenvolvimento web — HTML, CSS e JavaScript.</p>
-<nav aria-label="Navegação principal">
-<ul>
-<li><a href="#sobre">Sobre</a></li>
-<li><a href="#projetos">Projetos</a></li>
-<li><a href="#contato">Contato</a></li>
-</ul>
-</nav>
-</header>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfólio de Ana Luiza Oliveira de Matos</title>
+    <meta name="description" content="Portfólio simples feito em HTML puro.">
+  </head>
+  <body>
+    <!-- Cabeçalho e navegação -->
+    <header>
+      <h1>Portfólio de Ana Luiza Oliveira de Matos</h1>
+      <p>Estudante de desenvolvimento web — HTML, CSS e JavaScript.</p>
+      <nav aria-label="Navegação principal">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+      <!-- Seção Sobre -->
+      <section id="sobre">
+        <h2>Sobre</h2>
+        <figure>
+          <img src="https://via.placeholder.com/240" 
+               alt="Retrato ilustrativo de perfil.">
+          <figcaption>Imagem ilustrativa (substituir futuramente por uma foto real).</figcaption>
+        </figure>
+        <p>
+          Olá! Sou a Ana Luiza e estou começando no desenvolvimento web.
+          Tenho interesse em aprender HTML, CSS e JavaScript criando projetos práticos e divertidos.
+        </p>
+      </section>
+
+      <!-- Seção Projetos -->
+      <section id="projetos">
+        <h2>Projetos</h2>
+        
+        <article>
+          <h3>Blog de Filmes Favoritos</h3>
+          <p>Página simples para compartilhar resenhas e comentários sobre filmes que assisto.</p>
+          <ul>
+            <li>Estrutura de posts com título, imagem e parágrafo.</li>
+            <li>Links para trailers e sites externos.</li>
+            <li>Uso de listas e semântica HTML.</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Portfólio de Arte</h3>
+          <p>Galeria digital para exibir imagens, desenhos e artes gráficas.</p>
+          <ul>
+            <li>Uso de <code>&lt;figure&gt;</code> e <code>&lt;figcaption&gt;</code>.</li>
+            <li>Imagens organizadas em grade.</li>
+            <li>Possibilidade de navegação entre diferentes categorias.</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Seção Contato -->
+      <section id="contato">
+        <h2>Contato</h2>
+        <form action="#" method="post">
+          <p>
+            <label for="nome">Nome</label><br>
+            <input id="nome" name="nome" type="text" required>
+          </p>
+          <p>
+            <label for="email">E-mail</label><br>
+            <input id="email" name="email" type="email" required>
+          </p>
+          <p>
+            <label for="mensagem">Mensagem</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+          </p>
+          <p>
+            <button type="submit">Enviar</button>
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+      <small>© 2025 Ana Luiza Oliveira de Matos. Todos os direitos reservados.</small>
+    </footer>
+  </body>
 </html>
